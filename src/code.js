@@ -1,4 +1,4 @@
-const code = `apiVersion: "apps/v1"
+export const code = `apiVersion: "apps/v1"
 kind: "DaemonSet"
 metadata:
   labels:

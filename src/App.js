@@ -7,14 +7,9 @@ import "./styles.css";
 const App = () => {
   return (
     <>
-    <h2>React CodeMirror</h2>
     <CodeEditor code={code} />
-
-    <h2>React Textarea Code Editor</h2>
-    <ReactTextArea code={code} />
-
-    <h2>Ace</h2>
     <Ace code={code} />
+    <ReactTextArea code={code} />
     </>
   );
 }
